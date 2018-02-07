@@ -33,7 +33,7 @@ html,body{
 
 .split.left{
     left: 0;
-    background: url("img/1.jpg") center center no-repeat;
+    background: url("https://utaqi-1253553465.cos.ap-beijing.myqcloud.com/1.jpg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDEGsJv64HxRutUfzbgWkFRlpdQUAxnEJZ%26q-sign-time%3D1517985751%3B1517987551%26q-key-time%3D1517985751%3B1517987551%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D202680dd0d2983b07168e35ac543992cb28d1679&token=cd8cb8f08533093c7089917ca2d4d5538a88104c10001&clientIP=116.112.6.178&clientUA=ad7c9b18-48de-4862-a568-24ca3d15c76d") center center no-repeat;
     background-size: cover;
 }
 
@@ -47,7 +47,7 @@ html,body{
 
 .split.right{
     right: 0;
-    background: url("img/22.jpg") center center no-repeat;
+    background: url("https://utaqi-1253553465.cos.ap-beijing.myqcloud.com/22.jpg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDdBmmOmGV7nN3Z6RlQfA6OHTxbMN6hr7H%26q-sign-time%3D1517985817%3B1517987617%26q-key-time%3D1517985817%3B1517987617%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D73ad654d6e36a3c046ff92f12412f97eb98b1612&token=68bda2ee242d68974d4bf65cf55db9603684e26410001&clientIP=116.112.6.178&clientUA=37834c5f-2517-44b1-9ed8-84f390b7c2ba") center center no-repeat;
     background-size: cover;
 }
 
