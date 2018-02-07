@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>响应式HTML</title>
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="brand">响应式<span>HTML</span>实例</h1>
+		<div class="wrapper animated bounceInUp">
+			<div class="company-info">
+				<h3>内蒙古奥塔奇教育</h3>
+				<ul>
+					<li><i class="fa fa-road"></i> 呼和浩特市</li>
+					<li><i class="fa fa-wechat"></i> 微信：152-4818-4142</li>
+					<li><i class="fa fa-envelope"></i> 邮箱：973128787@qq.com</li>
+				</ul>
+			</div>
+			<div class="contact">
+				<h3>报名信息</h3>
+				<div class="alert">信息提交成功！</div>
+				<form id="contactForm">
+					<p>
+						<label>姓名</label>
+						<input type="text" name="name" id="name">
+					</p>
+					<p>
+						<label>公司</label>
+						<input type="text" name="company" id="company">
+					</p>
+					<p>
+						<label>邮箱</label>
+						<input type="email" name="email" id="email">
+					</p>
+					<p>
+						<label>电话</label>
+						<input type="text" name="phone" id="phone">
+					</p>
+					<p class="full">
+						<label>信息</label>
+						<textarea name="message" rows="5" id="message"></textarea>
+					</p>
+					<p class="full">
+						<button type="submit">提交</button>
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
